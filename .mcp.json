@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mof-blender": {
+      "command": "mof-blender-mcp",
+      "args": []
+    }
+  }
+}

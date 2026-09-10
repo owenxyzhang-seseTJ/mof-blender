@@ -1,0 +1,6 @@
+{
+  "name": "mof-blender",
+  "version": "0.1.0",
+  "description": "CIF topology analysis, optimized molecular modeling, Blender figures and authored animations.",
+  "author": {"name": "MOF Blender contributors"}
+}

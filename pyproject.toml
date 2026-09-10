@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mof-blender"
+version = "0.1.0"
+description = "Auditable CIF topology analysis and Blender figures for agent tools"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2,<3", "scipy>=1.14,<2", "ase>=3.23,<4", "gemmi>=0.7,<0.8",
+  "AuToGraFS==3.2.0", "mcp>=1.9,<2", "Pillow>=10", "rdkit>=2024.9",
+]
+
+[project.urls]
+Homepage = "https://github.com/owenxyzhang-seseTJ/mof-blender"
+Repository = "https://github.com/owenxyzhang-seseTJ/mof-blender"
+Issues = "https://github.com/owenxyzhang-seseTJ/mof-blender/issues"
+
+[project.optional-dependencies]
+molecules = ["rdkit>=2024.9"]
+dev = ["pytest>=8", "ruff>=0.5", "Pillow>=10"]
+
+[project.scripts]
+mof-blender = "mof_blender.cli:main"
+mof-blender-mcp = "mof_blender.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mof_blender = ["blender_worker.py"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = ["integration: real AuToGraFS and Blender execution"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

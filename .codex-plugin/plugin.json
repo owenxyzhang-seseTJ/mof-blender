@@ -1,0 +1,20 @@
+{
+  "name": "mof-blender",
+  "version": "0.1.0",
+  "description": "AuToGraFS topology analysis, RDKit molecular modeling and Blender structure figures and schematic animations.",
+  "author": {
+    "name": "MOF Blender contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MOF Blender",
+    "shortDescription": "从 CIF 拓扑到分子、框架与动态示意图",
+    "longDescription": "分析 MOF/COF 的周期拓扑，将连接节点抽象为多面体；支持 RDKit 优化分子、石墨烯、Blender 渲染、自然语言视角，以及孔道扩散、界面反应和柔性框架开门示意动画。",
+    "developerName": "MOF Blender contributors",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["分析这个 CIF 的拓扑，绘制节点多面体。", "优化这个小分子，生成白底球棍图。", "制作分子在孔道内移动的示意动画。"],
+    "brandColor": "#348B94"
+  },
+  "mcpServers": "./.mcp.json"
+}

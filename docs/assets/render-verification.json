@@ -1,0 +1,500 @@
+[
+  {
+    "id": "01-ethanol",
+    "title": "Ethanol / optimized ball-and-stick",
+    "source_scene_sha256": "f7bb1bed1d12f9fbad9633190a6c6839515e10f14fbd38853f91072d4dc2c151",
+    "geometry_sha256": "e8784aa5f96f39eece2ef16122cb0c3d60d849276f152a5378860e3608bb8989",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 25,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        0.21666276454925537,
+        -0.013863205909729004,
+        10.891404151916504
+      ],
+      "camera_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "geometry_sha256": "e8784aa5f96f39eece2ef16122cb0c3d60d849276f152a5378860e3608bb8989"
+    },
+    "preview": "01-ethanol.jpg",
+    "preview_sha256": "b0e1595b7461d498a09feac67934b41a5ee579a2c483e47ef15bb7fe45406f35"
+  },
+  {
+    "id": "02-caffeine",
+    "title": "Caffeine / space filling",
+    "source_scene_sha256": "6f9d69074575202751ad6a2b1bb2f917a267bf382cb3e51cfdf557a1cb906b12",
+    "geometry_sha256": "3792286abf7e8f95bcd59cbf8ef1c245d5a163d444fa841ce672b846e2e298b9",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 24,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        -0.08224010467529297,
+        0.3621821403503418,
+        28.139713287353516
+      ],
+      "camera_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "geometry_sha256": "3792286abf7e8f95bcd59cbf8ef1c245d5a163d444fa841ce672b846e2e298b9"
+    },
+    "preview": "02-caffeine.jpg",
+    "preview_sha256": "16aed8186ff1025363fcc2edad1ea8f10ec5b8d5dd41c2d4d051650e2e5e60ef"
+  },
+  {
+    "id": "03-mof5-atoms",
+    "title": "MOF-5 / atomic pore view",
+    "source_scene_sha256": "fbba5d324c4c669d244273761402f64ea82d07f1d6992e27d9b66f0d8b3a6788",
+    "geometry_sha256": "1189f1fae68e3430ac7e0d58b484325968d5b336dc78479734f42c41609be4c3",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 992,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        100.66663360595703,
+        12.471474647521973,
+        12.471474647521973
+      ],
+      "camera_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "geometry_sha256": "1189f1fae68e3430ac7e0d58b484325968d5b336dc78479734f42c41609be4c3"
+    },
+    "preview": "03-mof5-atoms.jpg",
+    "preview_sha256": "0ef5f7c8028c624891be554b1e463d009e06c97d2c3aa02f9b6ddfacb4ee7cef"
+  },
+  {
+    "id": "04-mof5-polyhedra",
+    "title": "pcu / six-connected polyhedra",
+    "source_scene_sha256": "850100ee6226d22b8e4cc0074a56ca7308dc2d4ec44a2dea7fc1139d3bdc0e0e",
+    "geometry_sha256": "72429df494c908e150e6e0cde893086b4963df51fe8b2f502710502fc1e87550",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 405,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        75.81996154785156,
+        -50.03085708618164,
+        75.81996154785156
+      ],
+      "camera_direction": [
+        0.5773502588272095,
+        -0.5773502588272095,
+        0.5773502588272095
+      ],
+      "geometry_sha256": "72429df494c908e150e6e0cde893086b4963df51fe8b2f502710502fc1e87550"
+    },
+    "preview": "04-mof5-polyhedra.jpg",
+    "preview_sha256": "58f8c264251f2d2766090ee072ba1a5c11c566124eebce27488a70c99584e4ef"
+  },
+  {
+    "id": "05-mof5-net",
+    "title": "pcu / dark node-and-edge net",
+    "source_scene_sha256": "c556416a344ecbc3bf6187db0834815c0c3068c400eee6b2f0aee011e5fe186e",
+    "geometry_sha256": "ad03abefbaa427c8944d9b18e8afdf788fea7aca7b0a4ad3420ef739a143a5a2",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 152,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        93.65282440185547,
+        -54.96916961669922,
+        87.20555114746094
+      ],
+      "camera_direction": [
+        0.5773502588272095,
+        -0.5773502588272095,
+        0.5773502588272095
+      ],
+      "geometry_sha256": "ad03abefbaa427c8944d9b18e8afdf788fea7aca7b0a4ad3420ef739a143a5a2"
+    },
+    "preview": "05-mof5-net.jpg",
+    "preview_sha256": "4c4719818a7a934ecb345fb437aba95070098ba3ea2c01e4aa6218726278ac96"
+  },
+  {
+    "id": "06-cof-atoms",
+    "title": "2D COF / atomic monolayer",
+    "source_scene_sha256": "8d7e43992a83ecfbc7c0e5274b13f2fe80ab6b71f88ee4dbfda30e282868f10a",
+    "geometry_sha256": "b6d1d2bfb2add55476da5eb01e27c311dce3207731595ebb6e094b1942bf7395",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 894,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        11.003189086914062,
+        19.058082580566406,
+        148.98594665527344
+      ],
+      "camera_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "geometry_sha256": "b6d1d2bfb2add55476da5eb01e27c311dce3207731595ebb6e094b1942bf7395"
+    },
+    "preview": "06-cof-atoms.jpg",
+    "preview_sha256": "b99655085b54ae644e4154eb70bff030237c4f71f9bd14204b62230d07e73830"
+  },
+  {
+    "id": "07-cof-polygons",
+    "title": "hcb / three-connected polygons",
+    "source_scene_sha256": "83064582b5bf314f664259b5c192548fa9c10d005695cd6302570397b32f6afe",
+    "geometry_sha256": "d774fccb6bd7490a7918bbb23339bd60717fa8b20a9463ef8d6a653e37ecbff0",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 168,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        14.670939445495605,
+        25.410778045654297,
+        188.7035675048828
+      ],
+      "camera_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "geometry_sha256": "d774fccb6bd7490a7918bbb23339bd60717fa8b20a9463ef8d6a653e37ecbff0"
+    },
+    "preview": "07-cof-polygons.jpg",
+    "preview_sha256": "b41e732182616ec3e4bb1312bdf4af39bf093387b8beaa640e90b30bfd7fa2ad"
+  },
+  {
+    "id": "08-dia-tetrahedra",
+    "title": "dia / four-connected tetrahedra",
+    "source_scene_sha256": "571a57dea9d89462e607e6b67c3347978462c4af1c6ccc2e4bae7c493d46198c",
+    "geometry_sha256": "621f69769d3b72c5dc5faf8e2255b79b9bf40d9a1cf07b63eb3449490118dc7c",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 534,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        94.04798126220703,
+        -54.197105407714844,
+        94.04786682128906
+      ],
+      "camera_direction": [
+        0.5773502588272095,
+        -0.5773502588272095,
+        0.5773502588272095
+      ],
+      "geometry_sha256": "621f69769d3b72c5dc5faf8e2255b79b9bf40d9a1cf07b63eb3449490118dc7c"
+    },
+    "preview": "08-dia-tetrahedra.jpg",
+    "preview_sha256": "60cd154df1978afd6261b5364ba6d7b3782f441fef0ce03a3e05abb1769a6250"
+  },
+  {
+    "id": "09-fcu-polyhedra",
+    "title": "fcu / twelve-connected polyhedra",
+    "source_scene_sha256": "08cf5cb7ff48c06dfda1ec64e3eeaccc4b6218575548facf851ee5eb95f22401",
+    "geometry_sha256": "9feed25524eebdadb2f5669c0815209686df19a27606f427f1a6900670f4012d",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 908,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        88.01679992675781,
+        -56.19071578979492,
+        90.66897583007812
+      ],
+      "camera_direction": [
+        0.5773502588272095,
+        -0.5773502588272095,
+        0.5773502588272095
+      ],
+      "geometry_sha256": "9feed25524eebdadb2f5669c0815209686df19a27606f427f1a6900670f4012d"
+    },
+    "preview": "09-fcu-polyhedra.jpg",
+    "preview_sha256": "c0ecc544338a3c20704b24d44649f3166c2388775dee798d52734f0c7c7d7443"
+  },
+  {
+    "id": "10-mof5-hybrid",
+    "title": "MOF-5 / atoms and topology",
+    "source_scene_sha256": "ea82bf315a488de53daa62a320f50385f855e6087b1ccbbd6acbe77bf8f05783",
+    "geometry_sha256": "3d1cd2463e013d7cf89d606930ba33f3ff39e679bfd3706b114f83234ff83769",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 1108,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        67.4220962524414,
+        -43.63915252685547,
+        68.34992218017578
+      ],
+      "camera_direction": [
+        0.5773502588272095,
+        -0.5773502588272095,
+        0.5773502588272095
+      ],
+      "geometry_sha256": "3d1cd2463e013d7cf89d606930ba33f3ff39e679bfd3706b114f83234ff83769"
+    },
+    "preview": "10-mof5-hybrid.jpg",
+    "preview_sha256": "a42b2e2cf28c601f601d59e513898abaa46e42f993fee816178af3e8f4d512de"
+  },
+  {
+    "id": "11-pore-diffusion",
+    "title": "CO2 / schematic pore diffusion",
+    "source_scene_sha256": "dc416b870dcb44db904a83852c0717a6d5864ab22bf8573b0b07e4ae6c6041a1",
+    "geometry_sha256": "a12454c1e4c55ac047143bb0860bff773819c19e2ba24a349c454a2802a260f9",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 190,
+      "resolution": [
+        800,
+        650
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 16,
+      "camera_position": [
+        48.71631622314453,
+        -47.89862823486328,
+        50.634761810302734
+      ],
+      "camera_direction": [
+        0.5383620262145996,
+        -0.6921797394752502,
+        0.48068034648895264
+      ],
+      "geometry_sha256": "a12454c1e4c55ac047143bb0860bff773819c19e2ba24a349c454a2802a260f9"
+    },
+    "preview": "11-pore-diffusion.jpg",
+    "preview_sha256": "235f290d91e0f281b1508976c89cdf0f983abcb09f13144dac1e934a4735aa6e",
+    "png_frames": 36,
+    "gif_frames": 36,
+    "duration_ms": 3000,
+    "fps": 12,
+    "animation": "11-pore-diffusion.gif",
+    "animation_sha256": "01945724c5540b1295fa56ee2727da54ad31d5bf1b77f3dc68e8829e10f38ebc"
+  },
+  {
+    "id": "12-interface-reaction",
+    "title": "Interface / authored reaction",
+    "source_scene_sha256": "b9122b6115f319c29a24eadc13e2167157168b6011d07737c6e4707a096ac0ad",
+    "geometry_sha256": "fb9de16024c47e7fc35ef251b65ee104bbae18ebe1431285a6009d686b4f52ef",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 46,
+      "resolution": [
+        900,
+        650
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 32,
+      "camera_position": [
+        8.114215850830078,
+        -16.925735473632812,
+        16.160493850708008
+      ],
+      "camera_direction": [
+        0.3152441680431366,
+        -0.7092993855476379,
+        0.6304883360862732
+      ],
+      "geometry_sha256": "fb9de16024c47e7fc35ef251b65ee104bbae18ebe1431285a6009d686b4f52ef"
+    },
+    "preview": "12-interface-reaction.jpg",
+    "preview_sha256": "743a049d0d978cbcc48789169e305cd660d60a8f58178dd8fcfba22ac450ac75",
+    "png_frames": 36,
+    "gif_frames": 36,
+    "duration_ms": 3000,
+    "fps": 12,
+    "animation": "12-interface-reaction.gif",
+    "animation_sha256": "bf214136fba7ddb51613f98a9166fcfe4fa9da36a0f14d7c6dc41173057be7b1"
+  },
+  {
+    "id": "13-graphene-top",
+    "title": "Graphene / monolayer top view",
+    "source_scene_sha256": "9f92ccbeffa4b5e433587c065345138c06e2289f52501b2cc7b60c9987adb2c0",
+    "geometry_sha256": "d71b7a4d66b82c5f7b55f72093c1cde8d2fee78889523e6311287f630cc2d21e",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 466,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        4.9200005531311035,
+        7.811549186706543,
+        63.913795471191406
+      ],
+      "camera_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "geometry_sha256": "d71b7a4d66b82c5f7b55f72093c1cde8d2fee78889523e6311287f630cc2d21e"
+    },
+    "preview": "13-graphene-top.jpg",
+    "preview_sha256": "3db788cf934f149aab79291fa0989cd46c41bf0510ae506022bd62e65f03af82"
+  },
+  {
+    "id": "14-graphene-oblique",
+    "title": "Graphene / inclined monolayer",
+    "source_scene_sha256": "867212cbfb868ea55aaea5cd4bf58f9cae31ad3a47dc44cc6c08cfb56f1a30fa",
+    "geometry_sha256": "940cd391c2a65176e99bd193f4c2d87502b33d0795f4d685e3d179efdc07e1ec",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 466,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        21.72043228149414,
+        -30.958675384521484,
+        46.52427291870117
+      ],
+      "camera_direction": [
+        0.2673177421092987,
+        -0.616887092590332,
+        0.7402645349502563
+      ],
+      "geometry_sha256": "940cd391c2a65176e99bd193f4c2d87502b33d0795f4d685e3d179efdc07e1ec"
+    },
+    "preview": "14-graphene-oblique.jpg",
+    "preview_sha256": "b888e744715e29a2542be61322506de6af567e4359f643d248a73adacc65fc22"
+  },
+  {
+    "id": "15-graphene-bilayer",
+    "title": "Graphene / AB bilayer",
+    "source_scene_sha256": "0e62b92aee0373d3ef011c4e75411d34c1c0abc90da069849ca582bcb8669133",
+    "geometry_sha256": "9a5091d2b943e734c823269d71855521aeebe05f7f7e4fa3905f9c46bd9261d3",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 932,
+      "resolution": [
+        1200,
+        900
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 64,
+      "camera_position": [
+        17.27535629272461,
+        -48.85796356201172,
+        35.2188720703125
+      ],
+      "camera_direction": [
+        0.174727201461792,
+        -0.8486749529838562,
+        0.4992205798625946
+      ],
+      "geometry_sha256": "9a5091d2b943e734c823269d71855521aeebe05f7f7e4fa3905f9c46bd9261d3"
+    },
+    "preview": "15-graphene-bilayer.jpg",
+    "preview_sha256": "2eb26c3629f7a2c2b132c7419e0a1bb1d2656d0a8003a8f11adb09aa8b24cca4"
+  },
+  {
+    "id": "16-gate-opening",
+    "title": "Flexible MOF / schematic gate opening",
+    "source_scene_sha256": "3084bcc16d67d4cf98fd00f6851c79d95fb1a736de058ad7be398924b69d57f0",
+    "geometry_sha256": "d42c5b7d168048c9067cbbbf14829490dbd82a2c4552dcd836bbad681fcd2337",
+    "audit": {
+      "blender_version": "5.2.1 LTS",
+      "objects": 33,
+      "resolution": [
+        1000,
+        800
+      ],
+      "transparent": false,
+      "engine": "CYCLES",
+      "samples": 32,
+      "camera_position": [
+        0.0,
+        1.5832774639129639,
+        36.05308532714844
+      ],
+      "camera_direction": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "geometry_sha256": "d42c5b7d168048c9067cbbbf14829490dbd82a2c4552dcd836bbad681fcd2337"
+    },
+    "preview": "16-gate-opening.jpg",
+    "preview_sha256": "5c5669d98410d041dd593a71b73c18f1b81ac7a2823e192e052bd0b4d64f0821",
+    "png_frames": 48,
+    "gif_frames": 37,
+    "duration_ms": 4000,
+    "fps": 12,
+    "animation": "16-gate-opening.gif",
+    "animation_sha256": "4d235a3954e12bbff468723a2fc518f10a149de06cc90766f85edb41d3546cb3"
+  }
+]
