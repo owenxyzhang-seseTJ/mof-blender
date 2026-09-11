@@ -11,7 +11,7 @@ from .views import interpret_view
 
 def layer_scene(output, material="graphene", repeat=(8, 8, 1), layers=1, stacking="AB",
                 lattice_a=None, interlayer=3.35, representation="ball-stick", preset="paper",
-                view="俯视", transparent=False, width=1400, height=1000):
+                view="俯视", transparent=True, width=1400, height=1000):
     from ase.build import graphene
     from ase.io import write
 

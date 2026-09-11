@@ -58,7 +58,7 @@ def analyze_framework(path: str, output: str, block: str | None = None,
 @mcp.tool()
 def create_framework_scene(analysis: str, output: str, representation: str = "polyhedra",
                            repeat: list[int] | None = None, preset: str = "paper",
-                           view: str | None = None, transparent: bool = False,
+                           view: str | None = None, transparent: bool = True,
                            width: int = 1400, height: int = 1100, node_scale: float = 0.22,
                            edge_radius: float = 0.10, atom_scale: float = 0.34,
                            bond_radius: float = 0.085, show_hydrogen: bool = False,
@@ -74,7 +74,7 @@ def create_framework_scene(analysis: str, output: str, representation: str = "po
 @mcp.tool()
 def create_molecule_scene(output: str, source: str | None = None, smiles: str | None = None,
                           representation: str = "ball-stick", preset: str = "paper",
-                          transparent: bool = False, width: int = 1200, height: int = 900,
+                          transparent: bool = True, width: int = 1200, height: int = 900,
                           view: str | None = None, optimize: bool = True, conformers: int = 8) -> dict:
     """Create a scene from XYZ/MOL/SDF/PDB or SMILES. SMILES coordinates are generated
     conformers, not experimental structures. Optimize with MMFF94s or UFF by default;
@@ -97,7 +97,7 @@ def set_view(scene: str, output: str, instruction: str | None = None,
 
 @mcp.tool()
 def compose_schematic(output: str, components: list[dict], arrows: list[dict] | None = None,
-                       preset: str = "paper", view: str = "俯视", transparent: bool = False,
+                       preset: str = "paper", view: str = "俯视", transparent: bool = True,
                        width: int = 1600, height: int = 1000) -> dict:
     """Compose scenes with user-defined placements. Component keys: scene (path), name,
     translate [x,y,z], scale. Arrow keys: start, end, radius, color. No reaction inference.

@@ -48,7 +48,7 @@ def _element_color(element, scene):
     return ELEMENT_COLORS.get(element, "#96A3B7")
 
 
-def new_scene(cell, preset="paper", transparent=False, width=1400, height=1100):
+def new_scene(cell, preset="paper", transparent=True, width=1400, height=1100):
     if preset not in PRESETS:
         raise InputError(f"Unknown preset; choose {list(PRESETS)}")
     if not 64 <= width <= 8192 or not 64 <= height <= 8192:
@@ -230,7 +230,7 @@ def _atomic_objects(scene, structure, repeat, representation, atom_scale, bond_r
 
 
 def make_scene(analysis, output, representation="polyhedra", repeat=(2, 2, 2),
-               preset="paper", view=None, transparent=False, width=1400, height=1100,
+               preset="paper", view=None, transparent=True, width=1400, height=1100,
                node_scale=0.22, edge_radius=0.10, atom_scale=0.34, bond_radius=0.085,
                show_hydrogen=False, node_color=None, edge_color=None):
     data = read_json(analysis)
@@ -271,7 +271,7 @@ def make_scene(analysis, output, representation="polyhedra", repeat=(2, 2, 2),
 
 
 def molecule_scene(output, source=None, smiles=None, representation="ball-stick", preset="paper",
-                   transparent=False, width=1200, height=900, view=None, optimize=True, conformers=8):
+                  transparent=True, width=1200, height=900, view=None, optimize=True, conformers=8):
     if representation not in {"ball-stick", "sticks", "spacefill"}:
         raise InputError("Molecules support ball-stick, sticks or spacefill")
     molecule = read_molecule(source, smiles, optimize, conformers)
@@ -302,7 +302,7 @@ def molecule_scene(output, source=None, smiles=None, representation="ball-stick"
 
 
 def compose_scene(output, components, arrows=None, preset="paper", view="俯视",
-                  transparent=False, width=1600, height=1000):
+                  transparent=True, width=1600, height=1000):
     """Combine explicit scene placements and arrows; chemistry remains user-specified."""
     scene = new_scene(np.eye(3), preset, transparent, width, height)
     scene["provenance"] = {"type": "schematic composition", "components": components,
