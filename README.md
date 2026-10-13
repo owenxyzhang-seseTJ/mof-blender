@@ -64,6 +64,18 @@ The gate-opening example constructs an idealized pore; it does not deform an upl
 - A local environment with enough memory for the requested supercell. Atomic scenes are
   bounded at 25,000 atom instances; large systems are usually clearer in topology mode.
 
+From PyPI:
+
+```bash
+python -m pip install mof-blender
+mof-blender doctor
+```
+
+This installs the geometry, topology, CLI and MCP entrypoints. Blender itself is
+still installed separately, and the in-repo gallery scripts (`scripts/run.py`)
+are not part of the wheel. To reproduce the tested dependency set exactly, or to
+run the gallery from source, work from a checkout.
+
 Using `uv`:
 
 ```bash

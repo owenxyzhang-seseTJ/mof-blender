@@ -61,6 +61,17 @@ MOF Blender 是一套可被不同 agent 共用的 Python 工具、MCP 服务与�
   代码面向 Blender 4.5+ 的 API，尚未在每一种版本或平台完整测试。
 - 超胞应与可用内存匹配。当前原子场景上限为 25,000 个原子实例；更大结构建议使用拓扑模式。
 
+从 PyPI 安装：
+
+```bash
+python -m pip install mof-blender
+mof-blender doctor
+```
+
+这会装入几何、拓扑、命令行和 MCP 入口。Blender 仍需另外安装；仓库内的图库脚本
+（`scripts/run.py`）不在 wheel 内。若要与测试版本完全一致，或从源码运行图库，
+请使用仓库检出方式。
+
 使用 `uv` 安装：
 
 ```bash

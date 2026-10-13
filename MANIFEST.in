@@ -4,7 +4,7 @@ include .codex-plugin/plugin.json .claude-plugin/plugin.json
 include .github/workflows/tests.yml
 recursive-include scripts *.py
 recursive-include skills *.md
-recursive-include docs *.md *.json *.png *.jpg *.jpeg *.gif *.svg *.webp
+recursive-include docs *.md *.json *.png *.jpg *.jpeg *.svg *.webp
 include examples/mof5_generated.cif
 include examples/cof_hcb_generated.cif
 include examples/dia_generated.cif
